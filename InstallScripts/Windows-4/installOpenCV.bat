@@ -39,7 +39,7 @@ cd %var1%\..\..
 ::////////////////////////////////////////////::
 set envsDir=%var1%\..\..
 cd %cwd%
-CALL deactivate
+CALL conda deactivate
 ::============================================::
 echo "Compiling using cmake"
 cd opencv
